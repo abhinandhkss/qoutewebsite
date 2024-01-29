@@ -299,7 +299,7 @@ main .card-4:hover .card-body{
         
     }
     main .card-1{
-      width: 150px;
+      width: 140px;
       height: 150px;
       border-radius: 10px;
       margin-bottom: 5px;
@@ -312,7 +312,7 @@ main .card-4:hover .card-body{
       
     } 
     main .card-2{
-      width: 150px;
+      width: 140px;
       height: 150px;
       border-radius: 10px;
       margin-top: 5px;
@@ -323,7 +323,7 @@ main .card-4:hover .card-body{
       cursor: pointer;
     } 
     main .card-3{
-      width: 150px;
+      width: 140px;
       height: 150px;
       border-radius: 10px;
       margin-top: 15px;
@@ -333,7 +333,7 @@ main .card-4:hover .card-body{
       cursor: pointer;
     } 
     main .card-4{
-      width: 150px;
+      width: 140px;
       height:150px;
       border-radius: 10px;
       margin-top: 15px;
@@ -353,18 +353,19 @@ main .card-4:hover .card-body{
       font-size: 20px;
     }
     main .row{
+      margin: auto;
       margin-top: 80px;
 
     }
     main .card-1:active{
       background: url("positive.jpg");
       color: transparent;
-      background-size: 150px 150px;
+      background-size: 140px 150px;
     }
     main .card-1:hover{
       background: url("positive.jpg");
       color: transparent;
-      background-size: 150px 150px;
+      background-size: 140px 150px;
     }
     main .card-1:active .card-body{
       display: none;
@@ -372,13 +373,13 @@ main .card-4:hover .card-body{
     main .card-2:active{
       background: url("life.jpg");
       color: transparent;
-      background-size: 150px 150px;
+      background-size: 140px 150px;
 
     }
     main .card-2:hover{
       background: url("life.jpg");
       color: transparent;
-      background-size: 150px 150px;
+      background-size: 140px 150px;
     }
     main .card-2:active .card-body{
       display: none;
@@ -386,12 +387,12 @@ main .card-4:hover .card-body{
     main .card-3:active{
       background: url("alone.jpg");
       color: transparent;
-      background-size: 150px 150px;
+      background-size: 140px 150px;
     }
     main .card-3:hover{
       background: url("alone.jpg");
       color: transparent;
-      background-size: 150px 150px;
+      background-size: 140px 150px;
     }
     main .card-3:active .card-body{
       display: none;
@@ -399,16 +400,14 @@ main .card-4:hover .card-body{
     main .card-4:active{
       background: url("motive.jpg");
       color: transparent;
-      background-size: 150px 150px;
-      position: relative;
-      overflow: hidden;
+      background-size: 140px 150px;
+      
     }
     main .card-4:hover{
       background: url("motive.jpg");
       color: transparent;
-      background-size: 150px 150px;
-      position: relative;
-      overflow: hidden;
+      background-size: 140px 150px;
+      
     }
     main .card-4:active .card-body{
       display: none;
