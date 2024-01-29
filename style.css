@@ -4,7 +4,7 @@
     padding: 0;
 }
 body{
-    background-color: #1f2833;
+    background-color: #e4e1e1;
 
 }
 .navbar{
@@ -20,10 +20,9 @@ header .navbar-brand{
     font-weight:900;
     letter-spacing: 2px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
+    color: #000;
 }
 header .collapse a{
-    color: #66fcf1;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
     font-size: 15px;
@@ -31,12 +30,12 @@ header .collapse a{
 }
 main{
     width: 100%;
-    height:600px;
+    height:100vh;
+    color: #181f27;
     
 }
 
 .wel-heading{
-    color: #fff;
     font-weight: 900;
     font-size: 60px;
     letter-spacing: 2px;
@@ -45,7 +44,6 @@ main{
     text-align: center;
 }
 .wel-text{
-    color: #fff;
     font-size: 20px;
     text-align: center;
     margin-top: 40px;
@@ -67,9 +65,91 @@ main .btn{
     font-weight: 800;
 }
 
-
-
-
+main .card-1{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-left: 30px;
+  box-shadow: 2px 5px 3px 5px hsla(0, 0%, 0%, 0.1);
+  background: url("catbg2.jpeg");
+  cursor: pointer;
+} 
+main .card-2{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-left: 30px;
+  box-shadow: 2px 5px 3px 5px hsla(0, 0%, 0%, 0.1);
+  background: url("catbg2.jpeg");
+  cursor: pointer;
+} 
+main .card-3{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-left: 30px;
+  box-shadow: 2px 5px 3px 5px hsla(0, 0%, 0%, 0.1);
+  background: url("catbg2.jpeg");
+  cursor: pointer;
+} 
+main .card-4{
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-left: 30px;
+  box-shadow: 2px 5px 3px 5px hsla(0, 0%, 0%, 0.1);
+  background: url("catbg2.jpeg");
+  cursor: pointer;
+} 
+main .row{
+  margin-left: 30px;
+  margin-top: 80px;
+}
+main .card-title{
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+  font-size: 50px;
+}
+main .card-1:hover{
+  background: url("positive.jpg");
+  color: transparent;
+  background-size: cover;
+  background-position-x: 0px 120px;
+}
+main .card-1:hover .card-body{
+  display: none;
+}
+main .card-2:hover{
+  background: url("life.jpg");
+  color: transparent;
+  background-size: cover;
+  background-position-x: 0px 120px;
+}
+main .card-2:hover .card-body{
+  display: none;
+}
+main .card-3:hover{
+  background: url("alone.jpg");
+  color: transparent;
+  background-size: cover;
+  background-position-x: 0px 120px;
+}
+main .card-3:hover .card-body{
+  display: none;
+}
+main .card-4:hover{
+  background: url("motive.jpg");
+  color: transparent;
+  background-size: cover;
+  background-position-x: 0px 120px;
+  
+}
+main .card-4:hover .card-body{
+  display: none;
+}
   /* STYLES SPECIFIC TO FOOTER  */
   .footer {
     width: 100%;
@@ -210,7 +290,7 @@ main .btn{
     }
     main{
         width: 100%;
-        height:500px;
+        height:auto;
         
     }
     
