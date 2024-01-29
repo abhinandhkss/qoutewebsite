@@ -23,10 +23,9 @@ header .navbar-brand{
     color: #000;
 }
 header .collapse a{
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 600;
-    font-size: 15px;
-
+    font-family: monospace;
+  
+    
 }
 main{
     width: 100%;
@@ -66,7 +65,7 @@ main .btn{
 }
 
 main .card-1{
-  width: 200px;
+  width: 300px;
   height: 200px;
   border-radius: 10px;
   margin-left: 30px;
@@ -75,7 +74,7 @@ main .card-1{
   cursor: pointer;
 } 
 main .card-2{
-  width: 200px;
+  width: 300px;
   height: 200px;
   border-radius: 10px;
   margin-left: 30px;
@@ -84,7 +83,7 @@ main .card-2{
   cursor: pointer;
 } 
 main .card-3{
-  width: 200px;
+  width: 300px;
   height: 200px;
   border-radius: 10px;
   margin-left: 30px;
@@ -93,7 +92,7 @@ main .card-3{
   cursor: pointer;
 } 
 main .card-4{
-  width: 200px;
+  width: 300px;
   height: 200px;
   border-radius: 10px;
   margin-left: 30px;
@@ -102,8 +101,8 @@ main .card-4{
   cursor: pointer;
 } 
 main .row{
-  margin-left: 30px;
-  margin-top: 80px;
+  margin: auto;
+    margin-top: 100px;
 }
 main .card-title{
   color: #fff;
@@ -145,7 +144,7 @@ main .card-4:hover{
   color: transparent;
   background-size: cover;
   background-position-x: 0px 120px;
-  
+  transition: 10ms;
 }
 main .card-4:hover .card-body{
   display: none;
@@ -251,13 +250,16 @@ main .card-4:hover .card-body{
         margin-left: 10px;
 
     }
+    
     .navbar{
         height: 65px;
     }
     
+  
+    
     .wel-heading{
-        color: #fff;
-        font-weight: 900;
+        color: #181f27;
+        font-weight: bolder;
         font-size: 30px;
         word-spacing: 2px;
         letter-spacing: 2px;
@@ -267,7 +269,8 @@ main .card-4:hover .card-body{
         margin-left: 0;
     }
     .wel-text{
-        color: #fff;
+        color: #181f27;
+        font-weight: 700;
         font-size: 12px;
         text-align: center;
         margin-top: 40px;
@@ -287,11 +290,104 @@ main .card-4:hover .card-body{
         font-size: 15px;
         font-family:'Courier New', Courier, monospace;
         font-weight: 800;
-    }
+        color:#181f27;
+        outline: none;
+      }
     main{
         width: 100%;
         height:auto;
         
+    }
+    main .card-1{
+      width: 140px;
+      height: 150px;
+      border-radius: 10px;
+      margin-bottom: 5px;
+      margin-top: 5px;
+
+
+      box-shadow:0 4px 8px rgba(0, 0, 0, 1);
+      background: url("catbg2.jpeg");
+      cursor: pointer;
+      
+    } 
+    main .card-2{
+      width: 140px;
+      height: 150px;
+      border-radius: 10px;
+      margin-top: 5px;
+
+      margin-bottom: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+      background: url("catbg2.jpeg");
+      cursor: pointer;
+    } 
+    main .card-3{
+      width: 140px;
+      height: 150px;
+      border-radius: 10px;
+      margin-top: 15px;
+      margin-bottom: 50px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+      background: url("catbg2.jpeg");
+      cursor: pointer;
+    } 
+    main .card-4{
+      width: 140px;
+      height:150px;
+      border-radius: 10px;
+      margin-top: 15px;
+      margin-bottom: 50px;
+      box-shadow: 0 4px 8px  rgba(0, 0, 0, 1);
+      background: url("catbg2.jpeg");
+      cursor: pointer;
+    } 
+   
+    main .card-title{
+      color: #fff;
+      text-align: center;
+      margin-top: 50px;
+      font-family: 'Courier New', Courier, monospace;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 20px;
+    }
+    main .row{
+      margin: auto;
+      margin-top: 80px;
+
+    }
+    main .card-1:active{
+      background: url("positive.jpg");
+      color: transparent;
+      background-size: 140px 150px;
+    }
+    main .card-1:active .card-body{
+      display: none;
+    }
+    main .card-2:active{
+      background: url("life.jpg");
+      color: transparent;
+      background-size: 140px 150px;
+    }
+    main .card-2:active .card-body{
+      display: none;
+    }
+    main .card-3:active{
+      background: url("alone.jpg");
+      color: transparent;
+      background-size: 140px 150px;
+    }
+    main .card-3:active .card-body{
+      display: none;
+    }
+    main .card-4:active{
+      background: url("motive.jpg");
+      color: transparent;
+      background-size: 140px 150px;
+    }
+    main .card-4:active .card-body{
+      display: none;
     }
     
   }
