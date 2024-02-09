@@ -218,8 +218,9 @@ header{
 .more-blogs{
   width: 150px;
   height: 40px;
-  color: #ffffff;
-  background-color: #000;
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid black;
   border-radius: 10px;
   font-size: 10px;
   margin-top: 60px;
@@ -233,6 +234,7 @@ header{
   width: 30px;
   height: 30px;
   margin-left: 60px;
+  margin-top: 10px;
 }
 .thumb-img{
   width: 150px;
@@ -240,6 +242,7 @@ header{
   padding: 3px;
   border-radius: 10px;
 }
+
 @media screen and (max-width: 600px){
   .wel-page{
     display: flex;
